@@ -1,0 +1,32 @@
+.card{
+    transition: 0.4s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12.182px;
+    width: 279px;
+    height: 48.73px;
+    background: #121214;
+    border-radius: 4.06066px;
+    flex: none;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+.card:hover{
+    transition: 0.4s;
+    background-color: #343B41;
+}
+.card p{
+    font-weight: bold;
+}
+
+@media (min-width: 768px){
+   .card{
+    height: 48.72793960571289px;
+    width: 742px;
+    border-radius: 4.060661792755127px;
+    padding: 12px;
+    justify-content: space-between;
+   }
+  }

@@ -1,0 +1,119 @@
+.PopUpPatch .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 296px;
+    padding: 15px;
+    background: #343B41;
+    border-radius: 3.20867px 3.20867px 0px 0px;
+    margin-bottom: 20px;
+}
+.PopUpPatch h2{
+    font-size: 20px;
+}
+.PopUpPatch .button{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.PopUpPatch button{
+    color: #868E96;
+    background: #343B41;
+    border: none;
+    font-size: 20px;
+
+}
+.PopUpPatch .register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 22.3336px;
+    height: 38.37398147583008px;
+    width: 163px;
+    border-radius: 4px;
+    padding: 0px, 22px, 0px, 22px;
+    background: #FF577F;
+    border: 1.2182px solid #FF577F;
+    box-sizing: border-box;
+    border-radius: 4.06066px;
+    flex: none;
+    flex-grow: 0;
+    margin: 10px 0;
+    color: #fff;
+    font-weight: inherit;
+}
+.PopUpPatch .register:hover{
+    transition: 0.4s;
+    background-color: #59323F;
+}
+.PopUpPatch .cancel{
+    transition: 0.4s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 22.3336px;
+    width: 78.35px;
+    height: 38.37px;
+    background: #868E96;
+    border: 1.2182px solid #868E96;
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 17.5881px;
+    color: #fff;
+}
+.PopUpPatch .cancel:hover{
+    transition: 0.4s;
+    background-color: #343B41;
+}
+.PopUpPatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 296px;
+    height: 274.34px;
+    position: absolute;
+    overflow-y: scroll;
+    background: #212529;
+    box-shadow: 0px 3.20867px 32.0867px -8.02168px rgba(0, 0, 0, 0.25);
+    border-radius: 3.20867px;
+}
+.PopUpPatch .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 13.0293px;
+    background: #343B41;
+    box-sizing: border-box;
+    border-radius: 3.20867px;
+    flex: none;
+    flex-grow: 0;
+    margin: 22.3336px 0px;
+    height: 38.504066467285156px;
+    width: 264.6582946777344px;
+    border-radius: 3.208672046661377px;
+    padding: 0px, 13px, 0px, 13px;
+    color: #fff;
+    border: none;
+}
+
+@media (min-width: 768px){
+    .PopUpPatch {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        width: 480px;
+        height: 357.34px;
+        overflow-y: inherit;
+        background: #212529;
+        box-shadow: 0px 3.20867px 32.0867px -8.02168px rgb(0 0 0 / 25%);
+        border-radius: 3.20867px;
+  }
+  .PopUpPatch .head{
+    width: 480px;
+  }
+}

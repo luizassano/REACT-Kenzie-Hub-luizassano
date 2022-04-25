@@ -1,0 +1,139 @@
+.dashboard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    margin-top: 10px;
+}
+ button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16.2426px;
+    width: 79.54px;
+    height: 25.58px;
+    background: #212529;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+}
+.sup button:hover{
+    transition: 0.4s;
+    background-color: #343B41;
+}
+.user{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 150px;
+    border-top: 1px solid rgb(122, 122, 122);
+    border-bottom: 1px solid rgb(122, 122, 122);
+    padding-left: 5px;
+}
+.user h2{
+    margin-top: 30px;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.user p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #868E96;
+}
+.register-tech{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+.register-tech p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.register-tech button{
+    transition: 0.4s;
+    height: 32px;
+    width: 32.485294342041016px;
+    border-radius: 4px;
+    background: #212529;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+}
+.register-tech button:hover{
+    transition: 0.4s;
+    background-color: #343B41;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.roll{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    height: 416.37px;
+    overflow-y: auto;
+    background: #212529;
+    border-radius: 4px;
+    width: 296px;
+}
+.listCard{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px 19px;
+}
+.popUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px){
+    .sup{
+        width: 100vw;
+        justify-content: space-between;
+        padding: 0 15%;
+    }
+    .dashboard{
+        justify-content: center;
+        align-items: center;
+    }
+    .user{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        border-top: 1px solid rgb(20, 20, 20);
+        border-bottom: 1px solid rgb(22, 22, 22);
+    }
+    .user h2{
+        margin-top: 0;
+    }
+    .register-tech{
+        width: 779.7316284179688px;
+    }
+    .roll{
+        width: 779.7316284179688px;
+        border-radius: 4px;
+        padding: 22px, 19px, 22px, 19px;
+    }
+    ::-webkit-scrollbar {
+            width: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: rgb(49, 49, 49); 
+        border-radius: 10px;
+    }
+}

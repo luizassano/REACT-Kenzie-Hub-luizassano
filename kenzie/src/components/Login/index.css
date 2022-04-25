@@ -1,0 +1,127 @@
+.top{
+    margin-top: 20px;
+}
+h1{
+    color: #FF577F;
+    font-size: 30px;
+    font-weight: bold;
+}
+.login{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    align-items: center;
+    width: 296px;
+    height: 450px;
+    background: #212529;
+    box-shadow: 0px 3.20867px 32.0867px -8.02168px rgba(0, 0, 0, 0.25);
+    border-radius: 3.20867px;
+    margin-top: 20px;
+    color: #fff;
+}
+.login div{
+    margin: 5px 0;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.login h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 22px;
+    color: #F8F9FA;
+}
+.login span{
+    font-size: 15px;
+}
+.login .error{
+    color: red;
+    font-size: 10px;
+}
+.login input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 13px;
+    background: #343B41;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 3.20867px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 22px 0px;
+    width: 259.9px;
+    height: 38.5px;
+    color: #fff;
+}
+.login .Entrar{
+    transition: 0.4s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 22.3336px;
+    width: 259.9px;
+    height: 38.5px;
+    background: #FF577F;
+    border: 1.2182px solid #FF577F;
+    box-sizing: border-box;
+    border-radius: 4.06066px;
+    flex: none;
+    flex-grow: 0;
+    margin: 10px 0;
+    color: #fff;
+}
+.login .Entrar:hover{
+    transition: 0.4s;
+    background-color: #59323F;
+}
+.login .info{
+    color: #868E96;
+    font-size: 10px;
+    margin-top: 20px;
+}
+.login .Cadastrar{
+    transition: 0.4s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 22.3336px;
+    width: 259.9px;
+    height: 38.5px;
+    background: #868E96;
+    border: 1.2182px solid #868E96;
+    box-sizing: border-box;
+    border-radius: 4.06066px;
+    flex: none;
+    flex-grow: 0;
+    margin: 10px 0;
+    color: #fff;
+}
+.login .Cadastrar:hover{
+    transition: 0.4s;
+    background-color: #343B41;
+}
+
+@media (min-width: 768px){
+    .login{
+        height: 502px;
+        width: 400px;
+        border-radius: 4px;
+        padding: 42px, 22px, 42px, 22px;
+    }
+    .login .entrar, .login input, .login .Cadastrar, .login .Entrar{
+        height: 48px;
+        width: 329.92877197265625px;
+        border-radius: 4px;
+        padding: 0px, 16px, 0px, 16px;
+    }
+    
+  }
